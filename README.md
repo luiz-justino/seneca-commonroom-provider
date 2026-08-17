@@ -3,10 +3,10 @@
 
 # @seneca/commonroom-provider
 
-[![npm version](https://img.shields.io/npm/v/@seneca/tangocard-provider.svg)](https://npmjs.com/package/@seneca/tangocard-provider)
+[![npm version](https://img.shields.io/npm/v/@seneca/commonroom-provider.svg)](https://npmjs.com/package/@seneca/commonroom-provider)
 [![build](https://github.com/senecajs/seneca-commonroom-provider/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-commonroom-provider/actions/workflows/build.yml)
-[![Coverage Status](https://coveralls.io/repos/github/senecajs/seneca-tangocard-provider/badge.svg?branch=main)](https://coveralls.io/github/senecajs/seneca-tangocard-provider?branch=main)
-[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-tangocard-provider/badge.svg)](https://snyk.io/test/github/senecajs/seneca-tangocard-provider)
+[![Coverage Status](https://coveralls.io/repos/github/senecajs/seneca-commonroom-provider/badge.svg?branch=main)](https://coveralls.io/github/senecajs/seneca-commonroom-provider?branch=main)
+[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-commonroom-provider/badge.svg)](https://snyk.io/test/github/senecajs/seneca-commonroom-provider)
 
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
