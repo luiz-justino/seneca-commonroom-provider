@@ -1,32 +1,32 @@
-![Seneca Tangocard-Provider](http://senecajs.org/files/assets/seneca-logo.png)
+![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
+> A [Seneca.js](http://senecajs.org) plugin
 
-> _Seneca Tangocard-Provider_ is a plugin for [Seneca](http://senecajs.org)
+# @seneca/commonroom-provider
 
+[![npm version](https://img.shields.io/npm/v/@seneca/commonroom-provider.svg)](https://npmjs.com/package/@seneca/commonroom-provider)
+[![build](https://github.com/senecajs/seneca-commonroom-provider/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-commonroom-provider/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/senecajs/seneca-commonroom-provider/badge.svg?branch=main)](https://coveralls.io/github/senecajs/seneca-commonroom-provider?branch=main)
+[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-commonroom-provider/badge.svg)](https://snyk.io/test/github/senecajs/seneca-commonroom-provider)
+
+| ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
+|---|---|
 
 Provides access to the Tangocard API using the Seneca *provider*
 convention. Tangocard API entities are represented as Seneca entities so
 that they can be accessed using the Seneca entity API and messages.
-
 See [seneca-entity](senecajs/seneca-entity) and the [Seneca Data
 Entities
 Tutorial](https://senecajs.org/docs/tutorials/understanding-data-entities.html) for more details on the Seneca entity API.
 
 NOTE: underlying third party SDK needs to be replaced as out of date and has a security issue.
 
-[![npm version](https://img.shields.io/npm/v/@seneca/tangocard-provider.svg)](https://npmjs.com/package/@seneca/tangocard-provider)
-[![build](https://github.com/senecajs/seneca-tangocard-provider/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-tangocard-provider/actions/workflows/build.yml)
-[![Coverage Status](https://coveralls.io/repos/github/senecajs/seneca-tangocard-provider/badge.svg?branch=main)](https://coveralls.io/github/senecajs/seneca-tangocard-provider?branch=main)
-[![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-tangocard-provider/badge.svg)](https://snyk.io/test/github/senecajs/seneca-tangocard-provider)
-[![DeepScan grade](https://deepscan.io/api/teams/5016/projects/19462/branches/505954/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=5016&pid=19462&bid=505954)
-[![Maintainability](https://api.codeclimate.com/v1/badges/f76e83896b731bb5d609/maintainability)](https://codeclimate.com/github/senecajs/seneca-tangocard-provider/maintainability)
+## Install
 
-
-| ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
-|---|---|
-
+```sh
+$ npm install @seneca/tangocard-provider @seneca/env
+```
 
 ## Quick Example
-
 
 ```js
 
@@ -64,18 +64,25 @@ Console.log('UPDATED BOARD', board)
 
 ```
 
-## Install
+## More Examples
 
-```sh
-$ npm install @seneca/tangocard-provider @seneca/env
-```
+See [test/](test/) for more usage examples.
 
+## Motivation
 
+A [Seneca.js](http://senecajs.org) plugin.
 
-<!--START:options-->
+## Support
 
+If you're using this module and need help, you can:
 
-## Options
+- Post a [github issue](https://github.com/senecajs/seneca-commonroom-provider/issues)
+- Tweet to [@senecajs](http://twitter.com/senecajs)
+- Ask on the [Gitter](https://gitter.im/senecajs/seneca)
+
+## API
+
+### Options
 
 * `debug` : boolean <i><small>false</small></i>
 
@@ -91,28 +98,15 @@ seneca.use('TangocardProvider', { name: value, ... })
 
 
 <small>Note: <code>foo.bar</code> in the list above means 
-<code>{ foo: { bar: ... } }</code></small> 
+<code>{ foo: { bar: ... } }</code></small>
 
-
-
-<!--END:options-->
-
-<!--START:action-list-->
-
-
-## Action Patterns
+### Action Patterns
 
 * [role:entity,base:tangocard,cmd:load,name:repo,zone:provider](#-roleentitybasetangocardcmdloadnamerepozoneprovider-)
 * [role:entity,base:tangocard,cmd:save,name:repo,zone:provider](#-roleentitybasetangocardcmdsavenamerepozoneprovider-)
 * [sys:provider,get:info,provider:tangocard](#-sysprovidergetinfoprovidertangocard-)
 
-
-<!--END:action-list-->
-
-<!--START:action-desc-->
-
-
-## Action Descriptions
+### Action Descriptions
 
 ### &laquo; `role:entity,base:tangocard,cmd:load,name:repo,zone:provider` &raquo;
 
@@ -136,5 +130,16 @@ Get information about the provider.
 
 ----------
 
+## Contributing
 
-<!--END:action-desc-->
+The [Senecajs org](https://github.com/senecajs/) encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
+
+### Running tests
+
+```sh
+npm run test
+```
+
+## Background
+
+Part of the [Senecajs org](https://github.com/senecajs/).

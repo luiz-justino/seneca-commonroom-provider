@@ -1,5 +1,5 @@
 {
-  "name": "@seneca/tangocard-provider",
+  "name": "@seneca/commonroom-provider",
   "version": "1.0.0",
   "main": "dist/tangocard-provider.js",
   "type": "commonjs",
@@ -39,8 +39,7 @@
   "engines": {
     "node": ">=14"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "@seneca/env": ">=0.2",
     "@seneca/provider": ">=1.0",
